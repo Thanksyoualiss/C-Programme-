@@ -1,0 +1,15 @@
+//In this program we use typeid(variable name).name() for type of name
+// find the types of any variable
+#include <iostream>
+#include <typeinfo>
+using namespace std;
+int main()
+{
+	float average = 2.334;
+	char name[] = "shamshad ali raja";
+	int marks = 60;
+	cout<< "the date tye of average" << typeid(average).name() << endl;
+	cout<< "the data type of name" << typeid(name).name() << endl;
+	cout<< "the date type of marks" << typeid(marks).name() << endl;
+	return 0;
+}
