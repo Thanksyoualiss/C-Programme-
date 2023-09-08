@@ -1,0 +1,14 @@
+// find the size of data type
+/*In this programe we find size of any data type*/
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout<< "the size of int is" << sizeof(int) << "bytes" << endl;
+	cout<< "the size of long" << sizeof(long) << "bytes" << endl;
+	cout << "the size of double int"<< sizeof(double) << "bytes" << endl;
+	cout<< "the size of long long int" << sizeof(long long int) << "bytes" << endl;
+	cout<< "the size of character is" << sizeof(char) << "bytes" << endl;
+	return 0;
+}
+	
